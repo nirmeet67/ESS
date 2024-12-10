@@ -10,7 +10,7 @@ otp_email = None
 otp_phone = None
 
 # Twilio credentials
-TWILIO_ACCOUNT_SID = 'Account_SID
+TWILIO_ACCOUNT_SID = 'Account_SID'
 TWILIO_AUTH_TOKEN = 'AUTH_TOKEN'
 TWILIO_PHONE_NUMBER = 'Phone_Number'
 

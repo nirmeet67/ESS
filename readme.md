@@ -5,4 +5,4 @@ git add .<br>
 git status<br>
 git commit<br>
 git push origin"name" <br>
-
+git pull origin main <br>

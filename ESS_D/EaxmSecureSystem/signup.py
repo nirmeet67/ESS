@@ -10,9 +10,9 @@ otp_email = None
 otp_phone = None
 
 # Twilio credentials
-TWILIO_ACCOUNT_SID = 'AC0680cfd02714ab6215665500a9eef2f0'
-TWILIO_AUTH_TOKEN = '61037098cd8d9a0aeb04f1047d71eee1'
-TWILIO_PHONE_NUMBER = '+13204222138'
+TWILIO_ACCOUNT_SID = 'Account_SID
+TWILIO_AUTH_TOKEN = 'AUTH_TOKEN'
+TWILIO_PHONE_NUMBER = 'Phone_Number'
 
 # List of country codes
 COUNTRY_CODES = [

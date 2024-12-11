@@ -10,9 +10,9 @@ otp_email = None
 otp_phone = None
 
 # Twilio credentials
-TWILIO_ACCOUNT_SID = 'Account_SID'
-TWILIO_AUTH_TOKEN = 'AUTH_TOKEN'
-TWILIO_PHONE_NUMBER = 'Phone_Number'
+TWILIO_ACCOUNT_SID = 'AC0680cfd02714ab6215665500a9eef2f0'
+TWILIO_AUTH_TOKEN = '2672dd2400bcae992db0866ce198d0da'
+TWILIO_PHONE_NUMBER = '+13204222138'
 
 # List of country codes
 COUNTRY_CODES = [
@@ -38,7 +38,7 @@ def send_otp_email(email):
     server.starttls()
     
     # Login to your email account
-    server.login('your_email@gmail.com', 'your_app_password')  # Use App Password if 2FA is enabled
+    server.login('jayfakeid23@gmail.com', 'mzpg qfwj vcue zxhf')  # Use App Password if 2FA is enabled
     
     # Create the email content
     subject = "Your OTP Code"

@@ -19,7 +19,7 @@ COUNTRY_CODES = [
     ("+1", "United States"),
     ("+91", "India"),
     ("+44", "United Kingdom"),
-    ("+61", "Australia"),
+    ("+61", "Australia"),   
     ("+81", "Japan"),
     # Add more country codes as needed
 ]
@@ -31,7 +31,7 @@ def generate_otp():
 def send_otp_email(email):
     """Send an OTP to the email."""
     global otp_email
-    otp_email = generate_otp()
+    otp_email = generate_otp()  
     
     # Set up the server
     server = smtplib.SMTP('smtp.gmail.com', 587)
